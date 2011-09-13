@@ -1,0 +1,142 @@
+\documentclass[10pt]{article}
+
+\usepackage{ifthen}
+\usepackage[hmargin=.5in,vmargin=.5in]{geometry}
+\usepackage{cmbright}
+\usepackage{paralist}
+\usepackage{multicol}
+
+\pagestyle{empty}
+
+\newboolean{google}
+\setboolean{google}{false}
+
+\begin{document}
+
+\begin{center}
+\textbf{Kevin Lin} \\
+5252 Brooklyn Ave NE \\ Seattle, WA 98105\\
+(703)\,672-0317\\
+kevin.lin.p@gmail.com \\
+\end{center}
+
+
+\subsection*{Objective}
+To design, create, and deliver web applications built on lightweight frameworks. To exercise my creative problem-solving approach, interpersonal ability, and business-domain knowledge.
+
+
+\subsection*{Experience}
+
+\paragraph*{Cognizant Technology Solutions}
+Seattle, WA\\
+Technology Solutions Analyst, January 2011 - Present
+\begin{compactitem}
+\item Attended 5-week training session covering all Software Consultant functions.
+\item Assisted senior associates through various self-directed programming projects.
+\end{compactitem}
+
+\paragraph*{Optimal Satcom}
+Reston, VA\\
+Software Developer Internship, May - August 2010
+\begin{compactitem}
+\item Found and fixed 10+ bugs of varying size in Enterprise Capacity Manager thick-client desktop application
+\item Completed and improved features touching all layers of ECM: database, business logic, GUI
+\item Completed a simplistic line detector for contour map images
+\end{compactitem}
+
+\paragraph*{Rackspace Hosting Email \& Apps}
+Blacksburg, VA\\
+Software Developer Part-Time, January 2009 - May 2010
+\begin{compactitem}
+\item Completed the MS Exchange functions of the Email and Apps Rest API and oversaw the product launch
+\item Built the REST-based API in C\# using ASP.NET MVC for the .NET 3.5 Framework
+\item Practised Test Driven Development with NUnit tests and Ruby-based functional tests
+\item Became part of a self-organized team using the Agile Scrum project management methodology
+\item Used fully automated build-and-deploy systems with MSBuild, Powershell and CruiseControl.NET
+\item Took ownership of the customer-facing API Documentation and saw to its continual improvement \end{compactitem}
+
+\ifthenelse {\boolean{google}}
+{
+\paragraph*{Get Connected, 4Help, Communications Network Services, VPI}
+Blacksburg, VA\\
+Move-In Temporary Hire, August 2008
+\begin{compactitem}
+\item Assisted a 1000-resident dorm in configuring computers and attached devices as part of a team of six members
+%\item Advised students and parents on technology usage and the computing services offered by the University
+\end{compactitem}
+}{}
+
+\paragraph*{College of Engineering, VPI}
+Blacksburg, VA\\
+Undergraduate Teaching Assistant, January - May 2008
+\ifthenelse {\boolean{google}}
+{
+\begin{compactitem}
+\item Working under the direction of Professor Amy Bell,
+\item Held one of eight Undergraduate TA positions for the 250+ student ‘ENGE 1104: Discovering Electrical and Computer Engineering and Computer Science’ class
+\item Assisted students with programming and other project activities during lab and office hours
+\item Evaluated teams and provided feedback on project results and presentations
+\end{compactitem}
+}{}
+
+\ifthenelse {\boolean{google}}
+{
+\paragraph*{Kroger}
+Blacksburg, VA\\
+Front End, August - November 2007
+}{}
+
+\ifthenelse {\boolean{google}}
+{
+\paragraph*{Naval Surface Warfare Center, Carderock Division}
+West Bethesda, MD\\
+Mentorship, CAD, June - August 2005
+%\begin{compactitem}
+%\item Created a simple CAD model of an alternating magnetic field test apparatus in Rhino 3D
+%\end{compactitem}
+}{}
+
+
+\subsection*{Education}
+\paragraph*{Virginia Polytechnic Institute and State University}\quad Blacksburg, Virginia\\
+\textit{Bachelor of Computer Science with Business Minor \quad Class of 2010}\\
+Selected Coursework: Technical Writing, Data Structures \& Algorithms, Intro to DBMS, Design of Information, Software Engineering
+\paragraph*{Thomas Jefferson High School for Science and Technology}\quad Alexandria, Virginia
+
+
+\subsection*{Skills}
+\begin{multicols*}{3}
+
+\noindent \textbf{Languages} \vspace*{5pt}\\
+Ruby\\
+C\#\\
+Java\\
+HTML/CSS\\
+\columnbreak
+SQL\\
+\noindent \textbf{Technologies} \vspace*{5pt} \\
+ASP.Net MVC \\
+.NET Framework \\
+NUnit, Moq \\
+Git, SVN \\
+XML Schemas/Parsing\\
+NUnit, Moq\\
+PostgreSQL, MSSQL\\
+\columnbreak
+Ruby on Rails\\
+\noindent \textbf{Environments} \vspace{5pt} \\
+Command-line\\
+Eclipse, Netbeans\\
+Visual Studio\\
+GNU/Linux: Arch, Gentoo, Fedora, \indent Ubuntu\\
+Windows Server 2008, IIS\\
+\end{multicols*}
+
+\ifthenelse {\boolean{google}}
+{
+\subsection*{Personal Interests/Hobbies}
+\noindent
+Fine cooking, Android ROM hacking, GNU/Linux, \LaTeX, web development, software development blogs, global economics, equity analysis, business news, philosophy, computer gaming
+}{}
+
+\end{document}

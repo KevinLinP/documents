@@ -1,0 +1,9 @@
+" My customizations on top of:
+" https://github.com/pivotal/vim-config
+" link to ~/.vimrc.local
+
+set wrap
+set noexpandtab
+set nolist
+set rnu
+set guifont=Inconsolata-g:h14

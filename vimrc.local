@@ -6,8 +6,8 @@ set wrap
 set noexpandtab
 set nolist
 set guifont=Inconsolata-g:h14
+autocmd FocusLost * :set number
+autocmd FocusGained * :set relativenumber
 autocmd WinEnter * :set relativenumber
 autocmd WinLeave * :set number
 autocmd BufEnter * :set relativenumber
-autocmd FocusGained * :set relativenumber
-autocmd FocusLost * :setglobal number

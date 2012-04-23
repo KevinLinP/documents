@@ -11,3 +11,5 @@ autocmd FocusGained * :set relativenumber
 autocmd WinEnter * :set relativenumber
 autocmd WinLeave * :set number
 autocmd BufEnter * :set relativenumber
+
+let g:CommandTMaxFiles=100000

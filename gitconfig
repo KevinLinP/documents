@@ -1,0 +1,9 @@
+[core]
+	editor = vim
+[alias]
+	d = difftool --tool=vimdiff --no-prompt
+[user]
+	email = kevin.lin.p@gmail.com
+	name = Kevin Lin
+[push]
+	default = tracking

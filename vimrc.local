@@ -11,7 +11,7 @@ autocmd FocusGained * :set relativenumber
 autocmd WinEnter * :set relativenumber
 autocmd WinLeave * :set number
 autocmd BufEnter * :set relativenumber
-autocmd BufNewFile,BufRead *.mobile.erb set ft=html.eruby.eruby-rails
+autocmd BufNewFile,BufRead *.mobile.erb set ft=eruby.html
 
 let g:CommandTMaxFiles=100000
 

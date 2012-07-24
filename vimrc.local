@@ -3,7 +3,6 @@
 " link to ~/.vimrc.local
 
 set wrap
-set noexpandtab
 set nolist
 set guifont=Inconsolata-g:h14
 autocmd FocusLost * :set number
@@ -13,6 +12,6 @@ autocmd WinLeave * :set number
 autocmd BufEnter * :set relativenumber
 autocmd BufNewFile,BufRead *.mobile.erb set ft=eruby.html
 
-let g:CommandTMaxFiles=100000
+let g:CommandTMaxFiles=25000
 
 let g:closetag_html_style=1 

@@ -15,3 +15,6 @@ autocmd BufNewFile,BufRead *.mobile.erb set ft=eruby.html
 let g:CommandTMaxFiles=25000
 
 let g:closetag_html_style=1 
+
+hi LineNr guifg=#666666
+hi CursorLineNr guifg=#444444

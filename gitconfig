@@ -1,5 +1,7 @@
 [core]
 	editor = vim
+	autocrlf = false
+	excludesfile = /Users/kevinlin/.gitignore_global
 [alias]
 	d = difftool --tool=vimdiff --no-prompt
 [user]

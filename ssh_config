@@ -1,0 +1,11 @@
+Host e
+Hostname 192.168.42.9
+User kevin
+
+Host h
+Hostname home.kevinlinp.org
+User kevin
+
+Host d
+Hostname 192.34.61.245
+User kevin
